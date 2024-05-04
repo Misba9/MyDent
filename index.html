@@ -3491,8 +3491,7 @@ End of comment */
 																			<img width="349" height="110"
 																				src="wp-content/uploads/2022/12/my-dent-logo-rem.png"
 																				class="attachment-full size-full wp-image-5393"
-																				alt=""
-																				srcset=""
+																				alt="" srcset=""
 																				sizes="(max-width: 349px) 100vw, 349px" />
 																		</div>
 																	</div>
@@ -3535,7 +3534,8 @@ End of comment */
 																					<li
 																						class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6223">
 																						<a href="dentists/contact-us/"
-																							class="twbb-item">Contact Us</a>
+																							class="twbb-item">Contact
+																							Us</a>
 																					</li>
 																					<li
 																						class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5042">
@@ -3585,7 +3585,8 @@ End of comment */
 																					<li
 																						class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6223">
 																						<a href="dentists/contact-us/"
-																							class="twbb-item">Contact Us</a>
+																							class="twbb-item">Contact
+																							Us</a>
 																					</li>
 																					<li
 																						class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5042">
@@ -4220,7 +4221,7 @@ End of comment */
 																		</div>
 																		<div class="swiper-slide">
 																			<div class="tenweb-testimonial">
-																				
+
 																				<div
 																					class="tenweb-testimonial__content">
 																					<div
@@ -4511,8 +4512,10 @@ End of comment */
 																<div id="fm-pages37"
 																	class="fm-pages wdform_page_navigation "
 																	show_title="" show_numbers="1" type="none"></div>
-																<form name="form37" action=""
-																	method="post" id="form37" class="fm-form form37  "
+
+																<!-- <form name="form37"
+																	action="https://api.web3forms.com/submit"
+																	method="POST" id="form37" class="fm-form form37  "
 																	enctype="multipart/form-data"><input type="hidden"
 																		id="fm_page_id37" value="4950"
 																		name="fm_page_id37" /><input type="hidden"
@@ -4568,6 +4571,9 @@ End of comment */
 																							class="wdform-field wd-width-100 wd-flex wd-flex-column fm-type_submitter_mail">
 																							<div
 																								class="wdform-label-section wd-width-100  wd-flex-row">
+																								<input type="hidden"
+																									name="access_key"
+																									value="64b3319c-a2f9-4080-a769-a2396a362f77">
 																								<label
 																									for="wdform_3_element37"
 																									class="wdform-label">Email</label><span
@@ -4619,12 +4625,9 @@ End of comment */
 																							<div
 																								class="wdform-element-section wd-flex  wd-flex-row wd-justify-content-center wd-width-100">
 																								<button type="button"
-																									class="button-submit"
-																									onclick="fm_submit_form('37');"
-																									data-ajax="0"><span
+																									class="button-submit"><span
 																										class="fm-submit-loading spinner fm-ico-spinner"></span>Submit</button>
-																										<button
-																									type="button"
+																								<button type="button"
 																									class="button-reset wd-hidden"
 																									onclick="fm_reset_form(37);">Reset</button>
 																							</div>
@@ -4648,9 +4651,51 @@ End of comment */
 																		</div>
 																	</div>
 																	<div class="wdform_preload"></div><input
-																		type="hidden" name="fm-current-page"
-																		value="index.html" />
+																		type="hidden" name="fm-current-page" value="" />
+																</form> -->
+
+																<!-- misba contact us form code start here -->
+																<form action="https://api.web3forms.com/submit"
+																	method="POST" class="contact-c" id="contact">
+																	<div class="form-c">
+																		<input type="hidden" name="access_key"
+																			value="64b3319c-a2f9-4080-a769-a2396a362f77">
+																		<div
+																			class="wdform-label-section wd-width-100  wd-flex-row wd-align-items-center custom">
+																			<label for="wdform_2_element37"
+																				class="wdform-label">Name</label><span
+																				class="wdform-required">*</span>
+																		</div>
+																		<input class="form-input" type="text"
+																			name="name" id="name"
+																			placeholder="" >
+																		<div
+																			class="wdform-label-section wd-width-100 custom">
+																			<label for="wdform_4_element37"
+																				class="wdform-label">Phone</label>
+																			<span class="wdform-required">*</span>
+																		</div>
+																		<div class="phn-inp">
+																		<input id="phone" class="form-input" type="tel"
+																			name="phone"
+																			placeholder="+91 90598 9---8" required
+																			pattern="^[0-9-+\s()]*$" maxLength="16"
+																			minLength="6" ata-for="phoneNumber"
+																			[selectedCountryCode]="+91">
+																		</div>
+																		<div
+																			class="wdform-label-section wd-width-100  wd-flex-row custom">
+																			<label for="wdform_3_element37"
+																				class="wdform-label">Email</label>
+																			<span class="wdform-required">*</span>
+																		</div>
+																		<input class="form-input" type="email"
+																			name="email" id="email" placeholder="">
+																		<!-- <textarea class="form-input" name="text" id="text" cols="10" rows="6" placeholder="Ellaborate your concern"></textarea> -->
+																		<button class="btn btn-dark">Submit</button>
+																	</div>
 																</form>
+																<!-- misba contact us form code end here -->
 															</div>
 														</div>
 													</div>
@@ -4890,14 +4935,12 @@ End of comment */
 													<ul id="menu-odonto-for-patient" class="menu">
 														<li
 															class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5099">
-															<a
-																href="patients/why-choose-odonto-clear-aligners/">Why
+															<a href="patients/why-choose-odonto-clear-aligners/">Why
 																My Dent?</a>
 														</li>
 														<li
 															class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5098">
-															<a
-																href="patients/odonto-treatment-process/">Process</a>
+															<a href="patients/odonto-treatment-process/">Process</a>
 														</li>
 														<li
 															class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5097">
@@ -5005,7 +5048,8 @@ End of comment */
 										service helpline no:&nbsp;</span><a href="tel:9849492909"
 										style="font-family: Montserrat, sans-serif; font-size: 12px; font-style: normal; font-weight: 500; text-decoration-line: underline;  letter-spacing: normal; white-space: normal; color: rgb(255, 255, 255) !important;">+91
 										9849 4929 09&nbsp;</a><br> -->
-										Copyright © 2021 My Dent. All rights reserved. </h5>
+									Copyright © 2021 My Dent. All rights reserved.
+								</h5>
 							</div>
 						</div>
 					</div>
@@ -5116,7 +5160,7 @@ End of comment */
 		id="elementor-waypoints-js"></script>
 	<script type="text/javascript" id="elementor-frontend-js-before">
 		/* <![CDATA[ */
-		 var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false, "isScriptDebug": false }, "i18n": { "shareOnFacebook": "Share on Facebook", "shareOnTwitter": "Share on Twitter", "pinIt": "Pin it", "download": "Download", "downloadImage": "Download image", "fullscreen": "Fullscreen", "zoom": "Zoom", "share": "Share", "playVideo": "Play Video", "previous": "Previous", "next": "Next", "close": "Close", "a11yCarouselWrapperAriaLabel": "Carousel | Horizontal scrolling: Arrow Left & Right", "a11yCarouselPrevSlideMessage": "Previous slide", "a11yCarouselNextSlideMessage": "Next slide", "a11yCarouselFirstSlideMessage": "This is the first slide", "a11yCarouselLastSlideMessage": "This is the last slide", "a11yCarouselPaginationBulletMessage": "Go to slide" }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "responsive": { "breakpoints": { "mobile": { "label": "Mobile Portrait", "value": 767, "default_value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "Mobile Landscape", "value": 880, "default_value": 880, "direction": "max", "is_enabled": false }, "tablet": { "label": "Tablet Portrait", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "Tablet Landscape", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": false }, "laptop": { "label": "Laptop", "value": 1366, "default_value": 1366, "direction": "max", "is_enabled": false }, "widescreen": { "label": "Widescreen", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": false } } }, "version": "3.20.4", "is_static": false, "experimentalFeatures": { "e_optimized_assets_loading": true, "additional_custom_breakpoints": true, "e_swiper_latest": true, "editor_v2": true, "block_editor_assets_optimize": true, "ai-layout": true, "landing-pages": true, "e_image_loading_optimization": true, "form-submissions": true }, "urls": { "assets": "https:\/\/odontoaligners.in\/wp-content\/plugins\/elementor\/assets\/" }, "swiperClass": "swiper", "settings": { "page": [], "editorPreferences": [] }, "kit": { "active_breakpoints": ["viewport_mobile", "viewport_tablet"], "global_image_lightbox": "yes", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes", "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description" }, "post": { "id": 4950, "title": "ODONTO%20Clear%20Aligners%20-%20Fastest%2C%20Clearest%20%26%20The%20Most%20Reliable%20Invisible%20Braces", "excerpt": "<img width=\"227\" height=\"56\" src=\"https:\/\/odontoaligners.in\/wp-content\/uploads\/2020\/12\/white_logo.png\" alt=\"\" \/>\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t<h2>Manage Your Finances with Kangourou<\/h2>\t\t\n\t\t\t<h2>Kangourou is an application for managing and tracking your income and spending.<\/h2>\t\t\n\t\t\t<a href=\"https:\/\/odontoaligners.in\/about\/\" role=\"button\">\n\t\t\t\t\t\tAbout Us\n\t\t\t\t\t<\/a>\n\t\t\t\t\t\t\t\t\t\t<img width=\"548\" height=\"500\" src=\"https:\/\/odontoaligners.in\/wp-content\/uploads\/2020\/12\/money_managemnet.png\" alt=\"\" srcset=\"https:\/\/odontoaligners.in\/wp-content\/uploads\/2020\/12\/money_managemnet.png 548w, https:\/\/odontoaligners.in\/wp-content\/uploads\/2020\/12\/money_managemnet-300x274.png 300w\" sizes=\"(max-width: 548px) 100vw, 548px\" \/>\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t<h2>It's Awesome<\/h2>\t\t\n\t\t<p>It's never been this simple before! The more you know about your money, the better you manage and save it. Make better use of your income, starting today!<\/p>\t\t\n\t\t\t\t\t\t\t\t\t\t<img width=\"172\" height=\"182\" src=\"https:\/\/odontoaligners.in\/wp-content\/uploads\/2020\/12\/track.png\" alt=\"\" \/>\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t<h2>Track<\/h2>\t\t\n\t\t\t<h2>See how your money comes in and out, and it won't vanish.<\/h2>\t\t\n\t\t\t\t\t\t\t\t\t\t<img width=\"172\" height=\"182\" src=\"https:\/\/odontoaligners.in\/wp-content\/uploads\/2020\/12\/manage.png\" alt=\"\" \/>\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t<h2>Manage<\/h2>\t\t\n\t\t\t<h2>Set goals and priorities to improve your spending habits.<\/h2>\t\t\n\t\t\t\t\t\t\t\t\t\t<img width=\"172\" height=\"182\" src=\"https:\/\/odontoaligners.in\/wp-content\/uploads\/2020\/12\/save.png\" alt=\"\" \/>\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t<h2>Save<\/h2>\t\t\n\t\t\t<h2>Make sure you have more money left for bigger purchases.<\/h2>\t\t\n\t\t\t\t\t\t\t\t\t\t<img width=\"463\" height=\"387\" src=\"https:\/\/odontoaligners.in\/wp-content\/uploads\/2020\/12\/free.png\" alt=\"\" srcset=\"https:\/\/odontoaligners.in\/wp-content\/uploads\/2020\/12\/free.png 463w, https:\/\/odontoaligners.in\/wp-content\/uploads\/2020\/12\/free-300x251.png 300w\" sizes=\"(max-width: 463px) 100vw, 463px\" \/>\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t<h1>It's Free<\/h1>\t\t\n\t\t<p>We won't become another line in your spending sheet. Kangourou is free and always will be.<\/p>\t\t\n\t\t\t<a href=\"#\" role=\"button\">\n\t\t\t\t\t\tApp  Store\n\t\t\t\t\t<\/a>\n\t\t\t<a href=\"#\" role=\"button\">\n\t\t\t\t\t\tGoogle Play\n\t\t\t\t\t<\/a>\n\t\t\t<h2>It Has Cool Features<\/h2>\t\t\n\t\t<p>Kangourou is super easy to use and gives you the most detailed information about your spending habits, along with great tips and vivid visuals.<\/p>\t\t\n\t\t\t<figure><img width=\"61\" height=\"61\" src=\"https:\/\/odontoaligners.in\/wp-content\/uploads\/2020\/12\/user_friendly.png\" alt=\"\" \/><\/figure><h3>User-Friendly<\/h3><p>We hate looking for a button for ages; you want have to do it here.<\/p>\t\t\n\t\t\t<figure><img width=\"61\" height=\"61\" src=\"https:\/\/odontoaligners.in\/wp-content\/uploads\/2020\/12\/eye_catching_interface.png\" alt=\"\" \/><\/figure><h3>Eye-Catching<\/h3><p>You'll find the section you need in a glance due to the vivid visuals.<\/p>\t\t\n\t\t\t\t\t\t\t\t\t\t<img width=\"204\" height=\"411\" src=\"https:\/\/odontoaligners.in\/wp-content\/uploads\/2020\/12\/moblie.png\" alt=\"\" srcset=\"https:\/\/odontoaligners.in\/wp-content\/uploads\/2020\/12\/moblie.png 204w, https:\/\/odontoaligners.in\/wp-content\/uploads\/2020\/12\/moblie-149x300.png 149w\" sizes=\"(max-width: 204px) 100vw, 204px\" \/>\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t<figure><img width=\"61\" height=\"61\" src=\"https:\/\/odontoaligners.in\/wp-content\/uploads\/2020\/12\/charts.png\" alt=\"\" \/><\/figure><h3>Charts<\/h3><p>All your data is visualized, so you don't have to deal with numbers.<\/p>\t\t\n\t\t\t<figure><img width=\"61\" height=\"61\" src=\"https:\/\/odontoaligners.in\/wp-content\/uploads\/2020\/12\/detailed_reports.png\" alt=\"\" \/><\/figure><h3>Detailed Report<\/h3><p>You'll get a detailed report on your spending habits every month.<\/p>\t\t\n\t\t\t\t\t\tI've only been using Kangourou for three months, but now I manage to save 30% of every paycheck instead of going into dept.\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"https:\/\/odontoaligners.in\/wp-content\/uploads\/2020\/12\/team_member_4.png\" alt=\"Lucie Caldwell\">\n\t\t\t\t\t\t\t\t<cite>Lucie Caldwell<\/cite>\t\t\t\n\t\t\t\t\t\tIt's unbelievable how much I used to spend on snacks! I can use all that money for home renovation now.\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"https:\/\/odontoaligners.in\/wp-content\/uploads\/2020\/12\/team_member_6.png\" alt=\"Fletcher Ferguson\">\n\t\t\t\t\t\t\t\t<cite>Fletcher Ferguson<\/cite>", "featuredImage": "https:\/\/odontoaligners.in\/wp-content\/uploads\/2021\/09\/odonto-logo-webinar-1024x196.png" } };
+		var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false, "isScriptDebug": false }, "i18n": { "shareOnFacebook": "Share on Facebook", "shareOnTwitter": "Share on Twitter", "pinIt": "Pin it", "download": "Download", "downloadImage": "Download image", "fullscreen": "Fullscreen", "zoom": "Zoom", "share": "Share", "playVideo": "Play Video", "previous": "Previous", "next": "Next", "close": "Close", "a11yCarouselWrapperAriaLabel": "Carousel | Horizontal scrolling: Arrow Left & Right", "a11yCarouselPrevSlideMessage": "Previous slide", "a11yCarouselNextSlideMessage": "Next slide", "a11yCarouselFirstSlideMessage": "This is the first slide", "a11yCarouselLastSlideMessage": "This is the last slide", "a11yCarouselPaginationBulletMessage": "Go to slide" }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "responsive": { "breakpoints": { "mobile": { "label": "Mobile Portrait", "value": 767, "default_value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "Mobile Landscape", "value": 880, "default_value": 880, "direction": "max", "is_enabled": false }, "tablet": { "label": "Tablet Portrait", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "Tablet Landscape", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": false }, "laptop": { "label": "Laptop", "value": 1366, "default_value": 1366, "direction": "max", "is_enabled": false }, "widescreen": { "label": "Widescreen", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": false } } }, "version": "3.20.4", "is_static": false, "experimentalFeatures": { "e_optimized_assets_loading": true, "additional_custom_breakpoints": true, "e_swiper_latest": true, "editor_v2": true, "block_editor_assets_optimize": true, "ai-layout": true, "landing-pages": true, "e_image_loading_optimization": true, "form-submissions": true }, "urls": { "assets": "https:\/\/odontoaligners.in\/wp-content\/plugins\/elementor\/assets\/" }, "swiperClass": "swiper", "settings": { "page": [], "editorPreferences": [] }, "kit": { "active_breakpoints": ["viewport_mobile", "viewport_tablet"], "global_image_lightbox": "yes", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes", "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description" }, "post": { "id": 4950, "title": "ODONTO%20Clear%20Aligners%20-%20Fastest%2C%20Clearest%20%26%20The%20Most%20Reliable%20Invisible%20Braces", "excerpt": "<img width=\"227\" height=\"56\" src=\"https:\/\/odontoaligners.in\/wp-content\/uploads\/2020\/12\/white_logo.png\" alt=\"\" \/>\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t<h2>Manage Your Finances with Kangourou<\/h2>\t\t\n\t\t\t<h2>Kangourou is an application for managing and tracking your income and spending.<\/h2>\t\t\n\t\t\t<a href=\"https:\/\/odontoaligners.in\/about\/\" role=\"button\">\n\t\t\t\t\t\tAbout Us\n\t\t\t\t\t<\/a>\n\t\t\t\t\t\t\t\t\t\t<img width=\"548\" height=\"500\" src=\"https:\/\/odontoaligners.in\/wp-content\/uploads\/2020\/12\/money_managemnet.png\" alt=\"\" srcset=\"https:\/\/odontoaligners.in\/wp-content\/uploads\/2020\/12\/money_managemnet.png 548w, https:\/\/odontoaligners.in\/wp-content\/uploads\/2020\/12\/money_managemnet-300x274.png 300w\" sizes=\"(max-width: 548px) 100vw, 548px\" \/>\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t<h2>It's Awesome<\/h2>\t\t\n\t\t<p>It's never been this simple before! The more you know about your money, the better you manage and save it. Make better use of your income, starting today!<\/p>\t\t\n\t\t\t\t\t\t\t\t\t\t<img width=\"172\" height=\"182\" src=\"https:\/\/odontoaligners.in\/wp-content\/uploads\/2020\/12\/track.png\" alt=\"\" \/>\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t<h2>Track<\/h2>\t\t\n\t\t\t<h2>See how your money comes in and out, and it won't vanish.<\/h2>\t\t\n\t\t\t\t\t\t\t\t\t\t<img width=\"172\" height=\"182\" src=\"https:\/\/odontoaligners.in\/wp-content\/uploads\/2020\/12\/manage.png\" alt=\"\" \/>\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t<h2>Manage<\/h2>\t\t\n\t\t\t<h2>Set goals and priorities to improve your spending habits.<\/h2>\t\t\n\t\t\t\t\t\t\t\t\t\t<img width=\"172\" height=\"182\" src=\"https:\/\/odontoaligners.in\/wp-content\/uploads\/2020\/12\/save.png\" alt=\"\" \/>\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t<h2>Save<\/h2>\t\t\n\t\t\t<h2>Make sure you have more money left for bigger purchases.<\/h2>\t\t\n\t\t\t\t\t\t\t\t\t\t<img width=\"463\" height=\"387\" src=\"https:\/\/odontoaligners.in\/wp-content\/uploads\/2020\/12\/free.png\" alt=\"\" srcset=\"https:\/\/odontoaligners.in\/wp-content\/uploads\/2020\/12\/free.png 463w, https:\/\/odontoaligners.in\/wp-content\/uploads\/2020\/12\/free-300x251.png 300w\" sizes=\"(max-width: 463px) 100vw, 463px\" \/>\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t<h1>It's Free<\/h1>\t\t\n\t\t<p>We won't become another line in your spending sheet. Kangourou is free and always will be.<\/p>\t\t\n\t\t\t<a href=\"#\" role=\"button\">\n\t\t\t\t\t\tApp  Store\n\t\t\t\t\t<\/a>\n\t\t\t<a href=\"#\" role=\"button\">\n\t\t\t\t\t\tGoogle Play\n\t\t\t\t\t<\/a>\n\t\t\t<h2>It Has Cool Features<\/h2>\t\t\n\t\t<p>Kangourou is super easy to use and gives you the most detailed information about your spending habits, along with great tips and vivid visuals.<\/p>\t\t\n\t\t\t<figure><img width=\"61\" height=\"61\" src=\"https:\/\/odontoaligners.in\/wp-content\/uploads\/2020\/12\/user_friendly.png\" alt=\"\" \/><\/figure><h3>User-Friendly<\/h3><p>We hate looking for a button for ages; you want have to do it here.<\/p>\t\t\n\t\t\t<figure><img width=\"61\" height=\"61\" src=\"https:\/\/odontoaligners.in\/wp-content\/uploads\/2020\/12\/eye_catching_interface.png\" alt=\"\" \/><\/figure><h3>Eye-Catching<\/h3><p>You'll find the section you need in a glance due to the vivid visuals.<\/p>\t\t\n\t\t\t\t\t\t\t\t\t\t<img width=\"204\" height=\"411\" src=\"https:\/\/odontoaligners.in\/wp-content\/uploads\/2020\/12\/moblie.png\" alt=\"\" srcset=\"https:\/\/odontoaligners.in\/wp-content\/uploads\/2020\/12\/moblie.png 204w, https:\/\/odontoaligners.in\/wp-content\/uploads\/2020\/12\/moblie-149x300.png 149w\" sizes=\"(max-width: 204px) 100vw, 204px\" \/>\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t<figure><img width=\"61\" height=\"61\" src=\"https:\/\/odontoaligners.in\/wp-content\/uploads\/2020\/12\/charts.png\" alt=\"\" \/><\/figure><h3>Charts<\/h3><p>All your data is visualized, so you don't have to deal with numbers.<\/p>\t\t\n\t\t\t<figure><img width=\"61\" height=\"61\" src=\"https:\/\/odontoaligners.in\/wp-content\/uploads\/2020\/12\/detailed_reports.png\" alt=\"\" \/><\/figure><h3>Detailed Report<\/h3><p>You'll get a detailed report on your spending habits every month.<\/p>\t\t\n\t\t\t\t\t\tI've only been using Kangourou for three months, but now I manage to save 30% of every paycheck instead of going into dept.\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"https:\/\/odontoaligners.in\/wp-content\/uploads\/2020\/12\/team_member_4.png\" alt=\"Lucie Caldwell\">\n\t\t\t\t\t\t\t\t<cite>Lucie Caldwell<\/cite>\t\t\t\n\t\t\t\t\t\tIt's unbelievable how much I used to spend on snacks! I can use all that money for home renovation now.\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"https:\/\/odontoaligners.in\/wp-content\/uploads\/2020\/12\/team_member_6.png\" alt=\"Fletcher Ferguson\">\n\t\t\t\t\t\t\t\t<cite>Fletcher Ferguson<\/cite>", "featuredImage": "https:\/\/odontoaligners.in\/wp-content\/uploads\/2021\/09\/odonto-logo-webinar-1024x196.png" } };
 		/* ]]> */
 	</script>
 	<script type="text/javascript" src="wp-content/plugins/elementor/assets/js/frontend.min021f.js?ver=3.20.4"
@@ -5173,6 +5217,7 @@ End of comment */
 			b.src = "../snap.licdn.com/li.lms-analytics/insight.min.js";
 			s.parentNode.insertBefore(b, s);
 		})(window.lintrk);
+
 	</script>
 	<noscript>
 		<img loading="lazy" height="1" width="1" style="display:none;" alt=""
@@ -5181,6 +5226,88 @@ End of comment */
 
 	<script async src="../static.wdgtsrc.com/assets/loader.js"
 		data-chats-widget-id="758e10f8-a9d0-46b4-967c-8f1e58e34f66"></script>
+
+	<!-- added by developer misba  code start here-->
+
+
+	<style>
+		/* contact start */
+		.contact-c {
+			/* background-color: rgb(238, 255, 220); */
+			/* height: 95vh; */
+			/* flex: 0 0 auto; */
+			height: auto;
+		}
+
+		.form-c {
+			max-width: 95%;
+			margin: 36px auto;
+		}
+
+		.text-center-c {
+			text-align: center;
+			padding-top: 26px;
+			font-family: 'Ubuntu', sans-serif;
+			font-size: 25px;
+		}
+
+		.form-input {
+			width: 100%;
+			font-size: 20px;
+			/* border: 2px solid gray; */
+			border-radius: 8px;
+			/* margin: 5px 0; */
+			/* padding: 49px 12px; */
+			/* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+			/* padding: 18px 18px !important; */
+		}
+
+		input{
+			height: 40px ;
+
+		}
+		.custom{
+			margin-top: 12px;
+		}
+		.btn {
+			padding: 14px 39px;
+			outline: none;
+			/* margin: 3px 9px; */
+			border-radius: 4px;
+			font-size: 20px;
+			/* background: none;/ */
+			cursor: pointer;
+			color: white;
+			background-color: red;
+			margin-top: 12px;
+		}
+		.btn:hover {
+			background-color: rgb(70, 68, 68);
+		}
+
+		/* contact end */
+	</style>
+	<script>
+		// for country code 
+		const phoneInputField = document.querySelector("#phone");
+		const phoneInput = window.intlTelInput(phoneInputField, {
+			initialCountry: "in",
+			utilsScript:
+				"https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+		});
+		// phone input field
+		const element = document.getElementById('phone');
+		const keys = ' 0123456789+';
+		element.addEventListener('keypress', (e) => {
+			if (keys.includes(e.key) === false) {
+				e.stopPropagation();
+				e.preventDefault();
+			}
+		}, false);
+	</script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+	<!-- added by developer misba  code end here-->
 </body>
 
 <!-- Mirrored from odontoaligners.in/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 23 Apr 2024 09:15:19 GMT -->
