@@ -1,6 +1,6 @@
 .elementor-kit-92 {
     --e-global-color-primary: #99C221;
-    --e-global-color-secondary: #ff0000 ;
+    --e-global-color-secondary: #ff0000;
     --e-global-color-text: #63666A;
     --e-global-color-accent: #61CE70;
     --e-global-color-12a38087: #97999B;
@@ -68,7 +68,6 @@
 .elementor-element {
     --widgets-spacing: 20px 20px;
 }
-
 
 h1.entry-title {
     display: var(--page-title-display);
