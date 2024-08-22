@@ -1,0 +1,144 @@
+.elementor-5163 .elementor-element.elementor-element-19c0ea68:not(.elementor-motion-effects-element-type-background), .elementor-5163 .elementor-element.elementor-element-19c0ea68 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #f1f0f6;
+}
+
+.elementor-5163 .elementor-element.elementor-element-19c0ea68 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 20px 0px 20px 0px;
+}
+
+.elementor-5163 .elementor-element.elementor-element-19c0ea68 > .elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-5163 .elementor-element.elementor-element-69093f0b:not(.elementor-motion-effects-element-type-background), .elementor-5163 .elementor-element.elementor-element-69093f0b > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #FE0000;
+}
+
+.elementor-5163 .elementor-element.elementor-element-69093f0b {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 20px 0px 20px 0px;
+}
+
+.elementor-5163 .elementor-element.elementor-element-69093f0b > .elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-bc-flex-widget .elementor-5163 .elementor-element.elementor-element-19dea054.elementor-column .elementor-widget-wrap {
+    align-items: center;
+}
+
+.elementor-5163 .elementor-element.elementor-element-19dea054.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated {
+    align-content: center;
+    align-items: center;
+}
+
+.elementor-5163 .elementor-element.elementor-element-57a99f7e {
+    text-align: left;
+}
+
+.elementor-5163 .elementor-element.elementor-element-57a99f7e .elementor-heading-title {
+    color: #ffffff;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.4em;
+    letter-spacing: 0.5px;
+}
+
+.elementor-5163 .elementor-element.elementor-element-57a99f7e > .elementor-widget-container {
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-5163 .elementor-element.elementor-element-695fc238 {
+    text-align: center;
+}
+
+.elementor-5163 .elementor-element.elementor-element-695fc238 .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.4em;
+    letter-spacing: 0.5px;
+}
+
+.elementor-5163 .elementor-element.elementor-element-695fc238 > .elementor-widget-container {
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-5163 .elementor-element.elementor-element-10487423 {
+    --grid-template-columns: repeat(0, auto);
+    --icon-size: 26px;
+    --grid-column-gap: 20px;
+    --grid-row-gap: 0px;
+}
+
+.elementor-5163 .elementor-element.elementor-element-10487423 .elementor-widget-container {
+    text-align: center;
+}
+
+.elementor-5163 .elementor-element.elementor-element-10487423 .elementor-social-icon {
+    background-color: rgba(0,0,0,0);
+    --icon-padding: 0em;
+}
+
+.elementor-5163 .elementor-element.elementor-element-10487423 .elementor-social-icon i {
+    color: #FFFFFF;
+}
+
+.elementor-5163 .elementor-element.elementor-element-10487423 .elementor-social-icon svg {
+    fill: #FFFFFF;
+}
+
+.elementor-5163 .elementor-element.elementor-element-10487423 .elementor-social-icon:hover {
+    background-color: rgba(246,108,101,0);
+}
+
+.elementor-5163 .elementor-element.elementor-element-10487423 .elementor-social-icon:hover i {
+    color: #63666A;
+}
+
+.elementor-5163 .elementor-element.elementor-element-10487423 .elementor-social-icon:hover svg {
+    fill: #63666A;
+}
+
+@media(max-width: 1024px) {
+    .elementor-5163 .elementor-element.elementor-element-57a99f7e .elementor-heading-title {
+        font-size:13px;
+    }
+
+    .elementor-5163 .elementor-element.elementor-element-695fc238 .elementor-heading-title {
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 767px) {
+    .elementor-5163 .elementor-element.elementor-element-57a99f7e {
+        text-align:center;
+    }
+
+    .elementor-5163 .elementor-element.elementor-element-57a99f7e .elementor-heading-title {
+        font-size: 12px;
+        line-height: 1.6em;
+    }
+
+    .elementor-5163 .elementor-element.elementor-element-57a99f7e > .elementor-widget-container {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-5163 .elementor-element.elementor-element-695fc238 {
+        text-align: center;
+    }
+
+    .elementor-5163 .elementor-element.elementor-element-695fc238 .elementor-heading-title {
+        font-size: 14px;
+        line-height: 1.6em;
+    }
+
+    .elementor-5163 .elementor-element.elementor-element-695fc238 > .elementor-widget-container {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+}
